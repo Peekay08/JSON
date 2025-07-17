@@ -1,0 +1,39 @@
+{
+    "users" : [
+        {
+            "name" : "Promise Kolade",
+            "age" : 17,
+            "isProgrammer" : true,
+            "skills":["HTML","CSS","Javascript"],
+            "address" : {
+            "city" : "Abuja",
+            "stare" : "FCT",
+            "country" : "Nigeria"
+            }
+        },
+
+        {
+            "name" : "Salish Matter",
+            "age" : 15,
+            "isProgrammer" : true,
+            "skills":["Gymnastics","Acting","Tidyness"],
+            "address" : {
+            "city" : "Los Angeles",
+            "stare" : "California",
+            "country" : "USA"
+            }
+        },
+
+        {
+            "name" : "Nidal Wonder",
+            "age" : 15,
+            "isProgrammer" : true,
+            "skills":["Acrobatics","Acting","Comedy"],
+            "address" : {
+            "city" : "Fresno",
+            "stare" : "California",
+            "country" : "USA"
+            }
+        }
+    ]
+}
