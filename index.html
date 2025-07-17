@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn Javascript</title>
+</head>
+<body>
+   <h1>JSON USER LIST</h1>
+   <ul></ul>
+
+   <!-- <script type="text/javascript" src="file.js"></script> -->
+
+   <script>
+    let list = ""
+    fetch ('file.json')
+    .then(response => response.json())
+    .then(json => {
+        json.users.forEach(user => {
+            list += `<li>${user.name}</li>`
+        });
+        document.querySelector("ul").innerHTML = list;
+        console.log(json.users);
+    });
+   </script>
+</body>
+</html>
